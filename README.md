@@ -16,22 +16,15 @@ The dataset used for training the sentiment analysis model is provided in the `t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/sentiment-analysis.git
-cd sentiment-analysis
+git clone https://github.com/Michael-Rusu/SentimentAnalysis.git
 ```
 
 2. Install the required dependencies. It is recommended to use a virtual environment:
 
-```bash
-python3 -m venv env
-source env/bin/activate (Linux/Mac) or env\Scripts\activate (Windows)
-pip install -r requirements.txt
-```
-
 3. Train the sentiment analysis model:
 
 ```bash
-python train.py --data data.csv --model model.pth
+python main.py
 ```
 
 This will train the model using the provided dataset and save the trained model as `model.pth` file.

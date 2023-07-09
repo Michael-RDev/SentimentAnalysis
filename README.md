@@ -4,7 +4,7 @@ This repository contains code and resources for training a sentiment analysis mo
 
 ## Dataset
 
-The dataset used for training the sentiment analysis model is provided in the `data.csv` file. The dataset contains the following columns:
+The dataset used for training the sentiment analysis model is provided in the `twitter_training.csv` file. The dataset contains the following columns:
 
 - `id`: Unique identifier for each review
 - `game`: Name of the game (in this case, "Borderlands")

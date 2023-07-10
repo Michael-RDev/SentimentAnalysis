@@ -27,14 +27,6 @@ git clone https://github.com/Michael-Rusu/SentimentAnalysis.git
 python main.py
 ```
 
-This will train the model using the provided dataset and save the trained model as `model.pth` file.
-
-4. Predict sentiment for new reviews:
-
-```bash
-python predict.py --model model.pth --text "This game is amazing!"
-```
-
 Replace the text within quotes with the actual review you want to predict the sentiment for. The predicted sentiment (positive or negative) will be displayed.
 
 ## Model Architecture
